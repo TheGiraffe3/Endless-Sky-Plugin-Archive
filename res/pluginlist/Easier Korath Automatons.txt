@@ -1,7 +1,6 @@
-author=Kestrel1110
+author=kestrel1110
 website=https://github.com/kestrel1110/Easier-Korath-Automatons
 directlink=https://github.com/kestrel1110/Easier-Korath-Automatons/archive/refs/heads/master.zip
-category=cheats
-status=Should work
-description=Makes fighting the Kor Mereti and Sestor a little bit easier.
-Also give bunks to the automatons so they will be viable flagships.
+category=Cheats
+status=Complete
+description=Makes capturing Kor Sestor and Kor Mereti a little bit easier
