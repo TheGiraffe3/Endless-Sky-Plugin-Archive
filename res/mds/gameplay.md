@@ -688,9 +688,9 @@ Daily update check: <img src='../img/check.png' width='15' ></img><br>
 <img src='../../Working/jump.gates/icon.png' height='100'></img><br>
 
 
-[jump.gates.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/jump.gates.zip) | 1.24 mb | 2024-08-17 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/jump.gates/) <br>
+[jump.gates.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/jump.gates.zip) | 1.24 mb | 2024-12-12 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/jump.gates/) <br>
 Author: zuckung | Category: Gameplay <br>
-[https://github.com/zuckung/endless-sky-plugins](https://github.com/zuckung/endless-sky-plugins) (last commit 2024-07-19) <br>
+[https://github.com/zuckung/endless-sky-plugins](https://github.com/zuckung/endless-sky-plugins) (last commit 2024-12-12) <br>
 
 >Adds a ring of jump gates at the borders of human space to create shortcuts inside human space. See the README for details.
 >
