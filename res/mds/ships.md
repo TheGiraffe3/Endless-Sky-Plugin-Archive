@@ -2272,9 +2272,9 @@ Daily update check: <img src='../img/cross.png' width='15' ></img><br>
 <img src='../../Working/Rumskib/icon.png' height='100'></img><br>
 
 
-[Rumskib.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Rumskib.zip) | 228.01 kb | 2024-12-28 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Rumskib/) <br>
+[Rumskib.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Rumskib.zip) | 300.08 kb | 2025-01-01 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Rumskib/) <br>
 Author: TheGiraffe3 | Category: Ships <br>
-[https://github.com/TheGiraffe3/rumskib](https://github.com/TheGiraffe3/rumskib) (last commit 2024-12-28) <br>
+[https://github.com/TheGiraffe3/rumskib](https://github.com/TheGiraffe3/rumskib) (last commit 2025-01-01) <br>
 
 >Adds a piratified version of the Gunboat, the Cutlass, a better Shuttle, the Tanager, the Hauler IV and the Eyrie, which extend the Hauler and Hauler (Type F) lines, respectively.
 >
