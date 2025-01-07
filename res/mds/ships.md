@@ -303,9 +303,9 @@ Daily update check: <img src='../img/check.png' width='15' ></img><br>
 <img src='../../Working/Capitalis Major/icon.png' height='100'></img><br>
 
 
-[Capitalis.Major.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Capitalis.Major.zip) | 1.96 mb | 2024-02-21 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Capitalis%20Major/) <br>
+[Capitalis.Major.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Capitalis.Major.zip) | 1.96 mb | 2025-01-07 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Capitalis%20Major/) <br>
 Author: Demolish238 | Category: Ships <br>
-[https://github.com/demolish238/Capitalis-Major](https://github.com/demolish238/Capitalis-Major) (last commit 2024-02-21) <br>
+[https://github.com/demolish238/Capitalis-Major](https://github.com/demolish238/Capitalis-Major) (last commit 2025-01-07) <br>
 
 >A collection of four superheavy ships, each with their own missions to unlock them, all of which are only avaliable after the main story has been finished.
 >
@@ -2272,9 +2272,9 @@ Daily update check: <img src='../img/cross.png' width='15' ></img><br>
 <img src='../../Working/Rumskib/icon.png' height='100'></img><br>
 
 
-[Rumskib.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Rumskib.zip) | 300.08 kb | 2025-01-01 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Rumskib/) <br>
+[Rumskib.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Rumskib.zip) | 126.86 kb | 2025-01-07 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Rumskib/) <br>
 Author: TheGiraffe3 | Category: Ships <br>
-[https://github.com/TheGiraffe3/rumskib](https://github.com/TheGiraffe3/rumskib) (last commit 2025-01-01) <br>
+[https://github.com/TheGiraffe3/rumskib](https://github.com/TheGiraffe3/rumskib) (last commit 2025-01-07) <br>
 
 >Adds a piratified version of the Gunboat, the Cutlass, a better Shuttle, the Tanager, the Hauler IV and the Eyrie, which extend the Hauler and Hauler (Type F) lines, respectively.
 >
