@@ -1,8 +1,9 @@
 name "Rumskib"
-about "This plugin adds many new ships. The Cutlass is a piratified Gunboat and the Tanager is a modified Shuttle, while the Eyrie is an extension of the Hauler (Type F) series."
+about "This plugin adds the Cutlass, a piratified Gunboat, and the Tanager, a modified Shuttle."
+about "Rumskib is compatible with Blended Ships, by mOctave, and DAIS, by Daeridanii."
 authors
 	Loymdayddaud
 	1010todd
 	bene-dictator
 dependencies
-	"game version" 0.10.7
+	"game version" 0.10.11-alpha

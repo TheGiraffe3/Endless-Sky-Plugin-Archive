@@ -1,7 +1,7 @@
 mission "Rumskib: Blended Ships installed"
 	landing
 	invisible
-	minor
+	non-blocking
 	repeat
 	to offer
 		has "installed plugin: Blended Ships"
@@ -51,7 +51,7 @@ event "rumskib: blended ships installed"
 mission "Rumskib: Blended Ships uninstalled"
 	landing
 	invisible
-	minor
+	non-blocking
 	repeat
 	to offer
 		not "installed plugin: Blended Ships"
@@ -79,10 +79,6 @@ event "rumskib: blended ships uninstalled"
 		remove variant
 			"Hare" 2
 			"Tanager"
-	fleet "Large Free Worlds"
-		remove variant
-			"Eagle"
-			"Eyrie"
 	fleet "Large Northern Pirates"
 		remove variant
 			"Cutlass"
@@ -102,20 +98,27 @@ event "rumskib: blended ships uninstalled"
 			"Hare" 2
 
 
-mission "Rumskib: Blended Ships installed with Eyrie"
+# Patch for when the Hauler IV and Eyrie were taken out.
+mission "Rumskib: Eyrie and Hauler IV Removal"
 	landing
 	invisible
-	minor
-	repeat
-	to offer
-		has "installed plugin: Blended Ships"
-  		has "event: navy using mark ii ships"
+	non-blocking
 	on offer
-		event "rumskib: blended ships installed with eyrie"
-		fail
+		event "rumskib: remove hauler IV and Eyrie"
 
-event "rumskib: blended ships installed with eyrie"
+event "rumskib: remove hauler IV and Eyrie"
 	fleet "Large Free Worlds"
-		add variant
+		remove variant
 			"Eagle"
 			"Eyrie"
+	fleet "Large Southern Merchants"
+		remove variant
+			"Hauler IV"
+			"Rawalpindi"
+		remove variant
+			"Eagle"
+			"Hauler IV"
+	fleet "Large Core Merchants"
+		remove variant
+			"Caterpillar"
+			"Hauler IV"
