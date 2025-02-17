@@ -1,0 +1,123 @@
+fleet "IltanPatrol"
+	government "Iltan"
+	names "IltanShipNames"
+	personality
+		confusion 15
+		entering
+		hunting
+		surveillance 
+		frugal
+	Fleets 10
+		"Aggrero (Fleets)" 2
+	Fleets 10
+		"Aggrero (Fleets)" 1
+		"Iltan Gunboat (Fleets)" 2	
+	Fleets 5
+		"Orbi' Tah (Fleets)" 1
+		"Iltan Gunboat (Fleets)" 1
+	Fleets 12
+		"Iltan Gunboat (Fleets)" 3
+	Fleets 25
+		"Iltan Gunboat (Fleets)"
+		"Iltan Interceptor (Fleets)" 3
+		
+fleet "IltanHeavyPatrol"
+	government "Iltan"
+	names "IltanShipNames"
+	personality
+		hunting
+		heroic
+		surveillance 
+		frugal
+		confusion 15
+	Fleets 10
+		"Aggrero (Fleets)" 3
+		"Iltan Gunboat (Fleets)" 3
+	Fleets 5
+		"Orbi' Tah (Fleets)" 2
+		"Iltan Interceptor (Fleets)" 2
+	Fleets 5
+		"Aggrero (Fleets)" 2
+		"Orbi' Tah (Fleets)" 2
+
+fleet "IltanWarFleet"
+	government "Iltan"
+	names "IltanShipNames"
+	personality
+		confusion 15
+	Fleets 10
+		"Aggrero (Fleets)" 2
+		"Orbi' Tah (Fleets)" 3
+	Fleets 5
+		"Tetryon (Warfleet)" 1
+		"Iltan Gunboat (Fleets)" 2
+	Fleets 8
+		"Iltan Gunboat (Fleets)" 3
+		"Iltan Interceptor (Fleets)" 5
+
+fleet "IltanMerchants"
+	government "Iltan"
+	names "IltanShipNames"
+	personality
+		confusion 40
+	Fleets 10
+		"Iltan Small Freighter (Fleets)"
+	Fleets 5
+		"Iltan Small Freighter (Fleets)"
+		"Ori' B Personal Flitter (Fleets)"
+	Fleets 10
+		"Iltan Interceptor (Fleets)" 2
+		"Iltan Small Freighter (Fleets)" 2
+	Fleets 15
+		"Iltan Small Freighter (Fleets)" 3
+	Fleets 10
+		"Iltan Small Freighter (Fleets)" 2
+		"Iltan Gunboat (Fleets)"
+	Fleets 10
+		"Iltan Small Freighter (Fleets)"  2
+		"Iltan Gunboat (Fleets)"	
+	Fleets 10
+		#medium freighter + 1 small escort
+	Fleets 10 
+		"Iltan Large Freighter (Fleets)"
+		"Iltan Gunboat (Fleets)"
+	Fleets 15
+		"Iltan Transport (Fleets)"
+	Fleets 15
+		"Ori' B Personal Flitter (Fleets)" 3
+
+fleet "IltanMiners"
+	government "Iltan"
+	names "IltanFullOrShipNames"
+	personality
+		appeasing
+		mining
+		harvests
+		confusion 4
+	Fleets 20
+		#small carrier and 3 drones + escort
+	Fleets 10
+		"Iltan Large Freighter (Mining)"
+		"Iltan Interceptor (Fleets)"
+	Fleets 10
+		"Iltan Light Freighter (Mining)" 2
+		"Iltan Interceptor (Fleets)"
+	Fleets 10
+		#medium carrier and 5 drones
+	Fleets 10
+		#medium carrier and 5 drones + escort
+	
+fleet "IltanSingleShips"
+	government "Iltan"
+	names "IltanFullNames"
+	personality
+		appeasing
+		confusion 50
+	Fleets
+		"Iltan Transport (Fleets)"
+	Fleets
+		#shuttle
+	Fleets
+		"Iltan Small Freighter (Fleets)"
+	Fleets 5
+		"Ori' B Personal Flitter (Fleets)"

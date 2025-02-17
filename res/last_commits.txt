@@ -1,4 +1,4 @@
--Omnis|2025-02-05
+-Omnis|2025-02-17
 40k Pack|2023-03-29
 A Galaxy Far Far Away|2021-11-06
 Ace Combat Endless Skies|2024-10-21
@@ -200,7 +200,7 @@ More Vanilla Missions|2024-11-19
 more.arfectas|2024-04-15
 more.boarding.missions|2025-02-10
 MultiTech Extra Light|2017-05-13
-Naltok|2025-02-06
+Naltok|2025-02-16
 Navy Campaign|2024-10-09
 Navy Conscript|2018-09-18
 navy.licenses|2024-11-10
@@ -294,7 +294,7 @@ The Enclave High DPI|2017-08-16
 The Enclave|2022-07-31
 The Forgotten|2017-06-06
 The Heroes|2016-09-08
-The Iltan Race|2025-02-15
+The Iltan Race|2025-02-17
 The Legacy|2020-08-02
 The Peacebringer|2023-10-02
 The Swarm Project|2016-09-23
