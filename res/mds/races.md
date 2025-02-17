@@ -1222,9 +1222,9 @@ Daily update check: <img src='../img/cross.png' width='15' ></img><br>
 ### Naltok
 
 
-[Naltok.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Naltok.zip) | 1.96 mb | 2025-02-06 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Naltok/) <br>
+[Naltok.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Naltok.zip) | 2.36 mb | 2025-02-16 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Naltok/) <br>
 Author: Quantumshark | Category: Races <br>
-[https://github.com/Quantumshark/ES-Naltok](https://github.com/Quantumshark/ES-Naltok) (last commit 2025-02-06) <br>
+[https://github.com/Quantumshark/ES-Naltok](https://github.com/Quantumshark/ES-Naltok) (last commit 2025-02-16) <br>
 
 >A new tier 1.5 alien species, the amphibious Naltok. 
 
@@ -1770,16 +1770,29 @@ Daily update check: <img src='../img/cross.png' width='15' ></img><br>
 ---
 
 ### The Iltan Race
+<img src='../../Working/The Iltan Race/icon.png' height='100'></img><br>
 
 
-[The.Iltan.Race.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/The.Iltan.Race.zip) | 30.28 mb | 2025-02-15 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/The%20Iltan%20Race/) <br>
+[The.Iltan.Race.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/The.Iltan.Race.zip) | 31.35 mb | 2025-02-17 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/The%20Iltan%20Race/) <br>
 Author: Zanano Quinito | Category: Races <br>
-[https://github.com/Zanano/IltanRace](https://github.com/Zanano/IltanRace) (last commit 2025-02-15) <br>
+[https://github.com/Zanano/IltanRace](https://github.com/Zanano/IltanRace) (last commit 2025-02-17) <br>
 
 >"The Iltan Race" adds the Iltans, along with their systems, ships, outfits, missions, and a new start. They are T3/T4.
 >
 
+<details>
+<summary>:blue_book: Plugin readme</summary>
+<blockquote>
+--Features--
+Adds the Iltan race.
+Ships, outfits, systems.
+Placeholder 2D ship for Orbi'Tah and Tetryon.
 
+
+By Zanano Quinito
+
+</blockquote>
+</details>
 
 Status: Playable, In Progress <br>
 Daily update check: <img src='../img/check.png' width='15' ></img><br>
