@@ -14,7 +14,7 @@
 mission "Rebel Jibauni: Qui-ni"
 	minor
 	name "Rebel Jibauni transport"
-	description "You bumped into a Rebel Jibauni in <origin>'s spaceport and agreed to take it to <destination>."
+	description "You bumped into a Rebel Jibauni in <origin>'s spaceport and agreed to take him to <destination>."
 	source
 		government "Jibauni (Rebel)"
 	destination Kanlil
@@ -57,7 +57,7 @@ mission "Rebel Jibauni: Qui-ni"
 			`	"Really? Well, you can take me to <destination> immediately and be rid of me."`
 			label end
 	on abort
-		dialog `The Jibauni looks at you in shock as you get rid of them earlier than expected.`			
+		dialog `The Jibauni looks at you in shock as you get rid of them earlier than expected.`
 	on complete
 		"reputation: Jibauni (Rebel)" = "old reputation: Rebel Jibauni"
 		clear "old reputation: Rebel Jibauni"
