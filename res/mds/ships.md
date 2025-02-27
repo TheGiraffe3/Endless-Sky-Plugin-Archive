@@ -2272,9 +2272,9 @@ Daily update check: <img src='../img/cross.png' width='15' ></img><br>
 <img src='../../Working/Rumskib/icon.png' height='100'></img><br>
 
 
-[Rumskib.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Rumskib.zip) | 2.18 mb | 2025-02-25 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Rumskib/) <br>
+[Rumskib.zip](https://github.com/Hecter94/EndlessSky-PluginArchive/releases/download/Latest/Rumskib.zip) | 2.18 mb | 2025-02-27 | [view files](https://github.com/Hecter94/EndlessSky-PluginArchive/tree/main/Working/Rumskib/) <br>
 Author: TheGiraffe3 | Category: Ships <br>
-[https://github.com/TheGiraffe3/rumskib](https://github.com/TheGiraffe3/rumskib) (last commit 2025-02-25) <br>
+[https://github.com/TheGiraffe3/rumskib](https://github.com/TheGiraffe3/rumskib) (last commit 2025-02-27) <br>
 
 >Adds a few more ships that have plausible stories for why they were invented.
 >
@@ -2283,9 +2283,11 @@ Author: TheGiraffe3 | Category: Ships <br>
 <summary>:blue_book: Plugin readme</summary>
 <blockquote># Rumskib
 
-Expansion for Endless Sky.
+Large expansion for Endless Sky. Mostly ship-based, but there are new outfits, missions, systems, and starts, as well.
 
-Assets can be found [here](https://github.com/TheGiraffe3/homula-rumskib-assets).
+I release this plugin with unstable ES updates, so about every four months.
+
+Assets for ships without @2x versions can be found [here](https://github.com/TheGiraffe3/homula-rumskib-assets).
 
 </blockquote>
 </details>
