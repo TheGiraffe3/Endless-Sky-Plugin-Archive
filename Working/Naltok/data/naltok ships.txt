@@ -154,8 +154,8 @@ ship "Sturgeon"
 	outfits
 		"Shell-Splitter Launcher"
 		"Shell-Splitter Torpedo" 11
-		"Steel-Render"
-		"Membrane-class Anti-Missile" 4
+		"Membrane-class Anti-Missile" 2
+		"Capsid-class Anti-Missile" 3
 
 		"River Reactor"
 		"Pond Battery"
@@ -167,9 +167,9 @@ ship "Sturgeon"
 		"Hyperdrive"
 
 	gun "Shell-Splitter Launcher"
-	turret "Steel-Render"
-	turret "Membrane-class Anti-Missile"
-	turret "Membrane-class Anti-Missile"
+	turret "Capsid-class Anti-Missile"
+	turret "Capsid-class Anti-Missile"
+	turret "Capsid-class Anti-Missile"
 	turret "Membrane-class Anti-Missile"
 	turret "Membrane-class Anti-Missile"
 	description `The Sturgeon is not designed to participate directly in ship to ship combat, although it is sufficiently resilient to ignore even fairly concentrated fire. Instead, it is a ground assault ship, designed to bring large numbers of troops and vehicles to the surface of a hostile planet.`
@@ -276,9 +276,11 @@ ship "Conger"
 		`"Gecko" Ion Steering`
 		"Hyperdrive"
 
-	turret "Membrane-class Anti-Missile"
-	turret "Membrane-class Anti-Missile"
-	bay "Drone" 0 0
+	turret 0 -23 "Membrane-class Anti-Missile"
+	turret 0 2 "Membrane-class Anti-Missile"
+	bay "Drone" 0 -29 under
+	engine -17 64
+	engine 17 64
 	description `The Conger serves as the backbone of the Ministry of Transport's goods transit network. While the Herring and Flounder do see occasional use in specialized roles, more than 95% of the goods transported by the Ministry travel in a Conger.`
 	description `	Furthermore, the presence of a docking port for a drone makes the Conger an excellent base for a Minnow, making the Conger an ideal vessel for the asteroid-mining fleets employed by the Ministry of Minerals.`
 
@@ -359,17 +361,19 @@ ship "Flounder"
 
 ship "Grouper"
 	sprite "ship/naltok grouper"
-	thumbnail "ship/naltok grouper"
+	thumbnail "thumbnail/naltok grouper"
 	attributes
 		category "Utility"
+		licenses 
+			"Xochira"
 		"cost" 8400000
-		"shields" 4900
-		"hull" 19000
+		"shields" 5100
+		"hull" 19600
 		"hull repair rate" 2.8
 		"hull energy" 1.4
 		"hull heat" 1.4
 		"required crew" 15 
-		"bunks" 27
+		"bunks" 24
 		"mass" 1808
 		"drag" 15.2
 		"heat dissipation" .06
@@ -401,15 +405,15 @@ ship "Grouper"
 		`"Iguana" Ion Thruster`
 		`"Gecko" Ion Thruster`
 		"Hyperdrive"
-	gun 0 0
-	gun 0 0
-		angle -60
-	gun 0 0
-		angle 60
-	turret 0 0
-	turret 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
+	gun 0 -158
+	gun -65 76
+		angle -120
+	gun 65 76
+		angle 120
+	turret 0 -45
+	turret 0 30
+	engine 37 106
+	engine -37 106
 	description `As part of their plans to root out the Alphas from the nearby regions of Human space to prevent future incursions, the Xochira designed the Grouper as a support vessel able to continually refuel their warships during long journeys.`
 
 ship "Guppy"
@@ -477,7 +481,7 @@ ship "Tetra"
 		"drag" 1.95
 		"heat dissipation" .16
 		"fuel capacity" 400
-		"cargo space" 6
+		"cargo space" 8
 		"outfit space" 204
 		"weapon capacity" 56
 		"engine capacity" 76
@@ -538,7 +542,7 @@ ship "Archerfish"
 		"drag" 2.6
 		"heat dissipation" .16
 		"fuel capacity" 300
-		"cargo space" 8
+		"cargo space" 12
 		"outfit space" 320
 		"weapon capacity" 82
 		"engine capacity" 92
@@ -559,13 +563,14 @@ ship "Archerfish"
 		"Ripper Pistols" 3
 		"Shredder Minigun" 2
 		
-		`"Gecko" Ion Steering`
-		`"Gecko" Ion Thruster`
-		`"Agama" Ion Thruster`
+		`"Anole" Ion Steering`
+		`"Iguana" Ion Thruster`
 		"Hyperdrive"
 
-	gun "Leech-Ray"
-	gun "Leech-Ray"
+	gun -24 -74 "Leech-Ray"
+	gun 24 -74 "Leech-Ray"
+	engine -14 42
+	engine 14 42
 	description `Once the war between the Xochira and the Telashki reached the current stalemate, the Xochira found themselves occupying the systems that the Alphas originally arrived in. Their weapon designers quickly produced the Leech-Ray in an attempt to prevent any Alpha ships escaping to the Telashki, but no ships they produced at the time were fast enough to chase a potential opponent down without risking their escape.`
 	description `	Several designs were proposed, but ultimately the Xochira opted to begin constructing the Archerfish; a low-cost, high-speed light warship carrying two Leech-Rays. To date, the Xochira maintain that no Alpha warship has ever escaped the Archerfish long enough to escape to Telashki space.`
 
@@ -766,7 +771,7 @@ ship "Barracuda"
 		category "Medium Warship"
 		"cost" 4742000
 		"shields" 5200
-		"hull" 16600
+		"hull" 16800
 		"hull repair rate" 3.15
 		"hull energy" 1.575
 		"hull heat" 1.575
@@ -828,8 +833,8 @@ ship "Albacore"
 		licenses 
 			"Xochira"
 		"cost" 4143000
-		"shields" 5400
-		"hull" 17800
+		"shields" 5600
+		"hull" 18400
 		"hull repair rate" 2.9
 		"hull energy" 1.45
 		"hull heat" 1.45
@@ -839,7 +844,7 @@ ship "Albacore"
 		"drag" 9.3
 		"heat dissipation" .09
 		"fuel capacity" 700
-		"cargo space" 18
+		"cargo space" 24
 		"outfit space" 424
 		"weapon capacity" 112
 		"engine capacity" 132
@@ -869,18 +874,24 @@ ship "Albacore"
 		`"Wyrm" Afterburner`	
 		"Hyperdrive"
 
-	gun
-	gun
+	gun 0 -133
+	gun -28 -73
 		angle -30
-	gun
+	gun 28 -73
 		angle 30
-	turret
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
+	turret 0 -21
+	bay "Fighter" -122 -69 under
+		angle -72
+	bay "Fighter" 122 -69 under
+		angle 72
+	bay "Fighter" -73 -57 under
+	bay "Fighter" 73 -57 under
+	bay "Fighter" -68 14 under
+		angle -72
+	bay "Fighter" 68 14 under
+		angle 72
+	engine -28 38
+	engine 28 38
 	description `The Albacore is not intended to be involved in large fleet battles like the Kaluga, but instead to serve as a transporter and deployer for five Lamprey fighters, patrolling the systems previously covered by the Archerfish. Despite this, the Albacore is not completely unarmed, carrying a small armament intended for long-range support, bringing some additional firepower to bear against ships trapped by the Lampreys.`
 
 ship "Moray"
@@ -889,8 +900,8 @@ ship "Moray"
 	attributes
 		category "Medium Warship"
 		"cost" 5163000
-		"shields" 6200
-		"hull" 21600
+		"shields" 6400
+		"hull" 22400
 		"hull repair rate" 3.7
 		"hull energy" 1.85
 		"hull heat" 1.85
@@ -932,14 +943,16 @@ ship "Moray"
 		`"Gecko" Ion Thruster`
 		
 
-	gun "Strike-Needler Pod"
-	gun "Strike-Needler Pod"
-	gun "Shell-Splitter Launcher"
+	gun -31 -96 "Strike-Needler Pod"
+	gun 31 -96 "Strike-Needler Pod"
+	gun 0 -20 "Shell-Splitter Launcher"
 		angle 180
-	turret "Sky-Shredder"
-	turret "Sky-Shredder"
-	turret "Steel-Render"
-	turret "Steel-Render"
+	turret -55 -55 "Sky-Shredder"
+	turret 55 -55 "Sky-Shredder"
+	turret -64 -30 "Steel-Render"
+	turret 64 -30 "Steel-Render"
+	engine -19 13
+	engine 19 13
 	description `The Moray is a high-performance medium warship, with impressive armament and toughness for its size. Unfortunately, this combat power comes at the cost of fairly poor mobility - the Moray is one of the slowest ships the Naltok produce, though this disadvantage is lessened somewhat by the turret-heavy armament and single rear-facing missile launcher, both of which make the Moray less vulnerable to flanking attacks.`
 
 ship "Pike"
@@ -1055,7 +1068,7 @@ ship "Mola"
 		"drag" 28.1
 		"heat dissipation" .037
 		"fuel capacity" 400
-		"cargo space" 24
+		"cargo space" 32
 		"outfit space" 752
 		"weapon capacity" 72
 		"engine capacity" 196
@@ -1129,7 +1142,7 @@ ship "Kaluga"
 		"drag" 28.1
 		"heat dissipation" .036
 		"fuel capacity" 400
-		"cargo space" 0
+		"cargo space" 16
 		"outfit space" 936
 		"weapon capacity" 448
 		"engine capacity" 178
@@ -1159,23 +1172,25 @@ ship "Kaluga"
 		`"Gecko" Ion Steering`
 		"Hyperdrive"
 
-	gun
-	gun
-	gun
+	gun -16 -207
+	gun 16 -207
+	gun -55 -133
 		angle -30
-	gun
+	gun 55 -133
 		angle 30
-	gun
+	gun -93 -82
 		angle -45
-	gun
+	gun 93 -82
 		angle 45
-	turret
-	turret
-	turret
-	turret
-	turret
-	turret
-	turret
+	turret 0 -71 "Sky-Shredder"
+	turret -86 -64 "Sky-Shredder"
+	turret 86 -64 "Sky-Shredder"
+	turret 0 4 "Capsid-class Anti-Missile"
+	turret -151 16 "Sky-Shredder"
+	turret 151 16 "Sky-Shredder"
+	turret 0 80 "Capsid-class Anti-Missile"
+	engine -63 126
+	engine 63 126
 	description `The Kaluga is the Grand Admiral's trump card, a colossal warship able to do battle with whole fleets. Small ships are immobilized by a barrage of halt-swarm missiles, while even the largest potential opponents in Naltok space cannot compete with the Kaluga's toughness or its close-range firepower.`
 
 ship "Lamprey"
@@ -1214,7 +1229,9 @@ ship "Lamprey"
 		"Puddle Battery"
 		`"Agama" Ion Steering`
 		`"Anole" Ion Thruster`
-	gun "Leech-Ray"
+	gun 0 -29 "Leech-Ray"
+	engine -9 15
+	engine 9 15
 	description `Inspired by the Telashki Remora, the Lamprey is the Xochira take on a small, fast carried ship. Extending the concept behind the Archerfish, the Lamprey's defining features are its excellent top speed and its armament consisting entirely of a single Leech-Ray. Though not a true spinal mount, the Leech-Ray is still responsible for more than a quarter of the craft's mass, and the oversized housing for it creates some challenges on the rare occasions that a Lamprey needs to land on a planet.`
 	description `	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay.`
 

@@ -13,10 +13,10 @@ fleet "Xochira Interdictor"
 	names "xochira"
 	personality
 		hunting coward vindictive
-#	variant 40
-#		"Archerfish" 2
-#	variant 10
-#		"Archerfish" 3
+	variant 40
+		"Archerfish" 2
+	variant 10
+		"Archerfish" 3
 
 fleet "Small Naltok Merchant"
 	government "Naltok Merchant"
@@ -37,12 +37,12 @@ fleet "Ministry of Transport Logistics"
 	government "Telashki (Ministry of Transport)"
 	names "telashki transport"
 	personality pacifist coward
-#	variant 30
-#		"Conger (Ministry of Transport)" 5
-#	variant 20
-#		"Conger (Ministry of Transport)" 4
-#	variant 10
-#		"Conger (Ministry of Transport)" 6
+	variant 30
+		"Conger (Ministry of Transport)" 5
+	variant 20
+		"Conger (Ministry of Transport)" 4
+	variant 10
+		"Conger (Ministry of Transport)" 6
 	variant 3
 		"Herring"
 	variant
