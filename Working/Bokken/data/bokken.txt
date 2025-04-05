@@ -1,0 +1,33 @@
+ship "Bokken"
+    sprite "bokken"
+    attributes
+        category "Fighter"
+        "cost" 75000
+        "shields" 500
+        "hull" 300
+        "required crew" 1
+        "bunks" 2
+        "mass" 35
+        "drag" .55
+        "heat dissipation" .82
+        "cargo space" 2
+        "fuel capacity" 200
+        "outfit space" 110
+        "weapon capacity" 15
+        "engine capacity" 22
+        weapon
+            "blast radius" 10
+            "shield damage" 100
+            "hull damage" 50
+            "hit force" 150
+    gun -6 5.5
+    gun -6 -5.5
+    explode "tiny explosion" 10
+    explode "small explosion" 5
+    "final explode" "final explosion small"
+    description "The Bokken, built out of cobbled Navy ships, is only useful to the most desperate of pirates."
+
+fleet "Large Northern Pirates"
+    add variant
+        "Nest"
+        "Bokken" 2
