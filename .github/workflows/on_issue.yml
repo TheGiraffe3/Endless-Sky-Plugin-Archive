@@ -23,8 +23,8 @@ jobs:
         with:
           commit-message: added a plugin txt
           title: New plugin added
-          body: This is a script generated PR that fixes $ISSUE_NUMBER
+          body: This is a script generated PR that fixes "$ISSUE_NUMBER"
           branch-suffix: timestamp
           delete-branch: true
-          assignees: Hecter94
-          reviewers: Hecter94
+          # assignees: Hecter94
+          # reviewers: Hecter94
