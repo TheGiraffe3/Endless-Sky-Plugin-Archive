@@ -2,7 +2,7 @@ name: (on issue) create txt
 on: 
   issues: 
     types: 
-      - reopened
+      - opened
 
 env:
   ISSUE_INPUT: "${{ github.event.issue.body }}"
@@ -27,5 +27,5 @@ jobs:
           body: "This is a script generated PR that fixes #${{ github.event.issue.number }}."
           branch-suffix: timestamp
           delete-branch: true
-          # assignees: Hecter94
-          # reviewers: Hecter94
+          assignees: Hecter94
+          reviewers: Hecter94
