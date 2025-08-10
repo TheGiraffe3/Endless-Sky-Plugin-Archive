@@ -3,9 +3,12 @@ on:
   issues: 
     types: 
       - reopened
+
 env:
   ISSUE_INPUT: "${{ github.event.issue.body }}"
-  ISSUE_NUMBER: "${{ github.event.issue.number }}"
+#  ISSUE_NUMBER: "${{ github.event.issue.number }}"
+  ISSUE_NUMBER: 32
+
 jobs:
   getissue:
     name: First job
