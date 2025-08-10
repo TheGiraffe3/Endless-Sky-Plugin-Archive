@@ -1,30 +1,50 @@
-name: (on issue) create txt
-on: 
-  issues: 
-    types: 
-      - opened
+name: Greeting on variable day
+
+on:
+  workflow_dispatch
+
 env:
-  ISSUE_INPUT: "${{ github.event.issue.body }}"
-  ISSUE_NUMBER: "${{ github.event.issue.number }}"
+  DAY_OF_WEEK: Monday
+
 jobs:
-  getissue:
-    name: First job
+  greeting_job:
     runs-on: ubuntu-latest
-    permissions: write-all
+    env:
+      Greeting: Hello
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-      - name: Create txt file out of issue body
-        run: |
-          python3 res/src/onissue.py
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          commit-message: added a plugin txt
-          title: New plugin added (\#ISSUE_NUMBER)
-          body: This is a script generated PR that fixes \#ISSUE_NUMBER.
-          branch-suffix: timestamp
-          delete-branch: true
-          assignees: Hecter94
-          reviewers: Hecter94
+      - name: "Say Hello Tester it's Monday"
+        run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
+        env:
+          First_Name: Tester
+
+
+# name: (on issue) create txt
+# on: 
+#   issues: 
+#     types: 
+#       - opened
+# env:
+#   ISSUE_INPUT: "${{ github.event.issue.body }}"
+#   ISSUE_NUMBER: "${{ github.event.issue.number }}"
+# jobs:
+#   getissue:
+#     name: First job
+#     runs-on: ubuntu-latest
+#     permissions: write-all
+#     steps:
+#       - uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 2
+#       - name: Create txt file out of issue body
+#         run: |
+#           python3 res/src/onissue.py
+#       - name: Create Pull Request
+#         uses: peter-evans/create-pull-request@v7
+#         with:
+#           commit-message: added a plugin txt
+#           title: New plugin added
+#           body: This is a script generated PR that fixes ISSUE_NUMBER
+#           branch-suffix: timestamp
+#           delete-branch: true
+#           assignees: Hecter94
+#           reviewers: Hecter94
