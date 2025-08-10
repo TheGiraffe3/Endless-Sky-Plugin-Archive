@@ -5,6 +5,7 @@ on:
       - opened
 env:
   ISSUE_INPUT: "${{ github.event.issue.body }}"
+  ISSUE_NUMBER: "${{ github.event.issue.number }}"
 jobs:
   getissue:
     name: First job
@@ -21,8 +22,8 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           commit-message: added a plugin txt
-          title: New plugin added
-          body: This is a script generated PR.
+          title: New plugin added (\#ISSUE_NUMBER)
+          body: This is a script generated PR that fixes \#ISSUE_NUMBER.
           branch-suffix: timestamp
           delete-branch: true
           assignees: Hecter94
