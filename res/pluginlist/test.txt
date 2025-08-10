@@ -1,0 +1,6 @@
+author=test
+website=test
+directlink=test
+category=Cheats
+status=test
+description=test
