@@ -1,0 +1,6 @@
+author=Anonymous Smith
+website=https://nonexistentwebsite.com
+directlink=https://nonexistentwebsite.com/nonexistentlink.zip
+category=Starts
+status=Nonexistent
+description=This is a random nonexistent plugin.
